@@ -56,9 +56,10 @@ class MainActivity : ComponentActivity() {
 @Composable
 private fun PrivacyPolicyLink(modifier: Modifier = Modifier) {
     val uriHandler = LocalUriHandler.current
+    val privacyUrl = "https://" + "aneupane296-cyber.github.io" + "/Krishi-Loksewa-Sathi/privacy.html"
     TextButton(
         onClick = {
-            uriHandler.openUri("https://github.io")
+            uriHandler.openUri(privacyUrl)
         },
         modifier = modifier.padding(vertical = 2.dp)
     ) {
