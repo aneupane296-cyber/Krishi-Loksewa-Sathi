@@ -11,8 +11,15 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.navigationBarsPadding
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import com.example.ui.KrishiPrepApp
 import com.example.ui.theme.KrishiPrepTheme
@@ -34,12 +41,31 @@ class MainActivity : ComponentActivity() {
                     Box(modifier = Modifier.weight(1f)) {
                         KrishiPrepApp()
                     }
+                    PrivacyPolicyLink(
+                        modifier = Modifier.align(Alignment.CenterHorizontally)
+                    )
                     AdMobBanner(
                         modifier = Modifier.navigationBarsPadding()
                     )
                 }
             }
         }
+    }
+}
+
+@Composable
+private fun PrivacyPolicyLink(modifier: Modifier = Modifier) {
+    val uriHandler = LocalUriHandler.current
+    TextButton(
+        onClick = {
+            uriHandler.openUri("https://github.io")
+        },
+        modifier = modifier.padding(vertical = 2.dp)
+    ) {
+        Text(
+            text = "Privacy Policy",
+            style = MaterialTheme.typography.labelSmall
+        )
     }
 }
 
