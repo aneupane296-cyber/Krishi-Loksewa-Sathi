@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Nepal Krishi Lok Sewa Prep</string>
+    <string name="app_short_name">Krishi Prep</string>
+    <string name="creator_attribution">Creator: Apar Neupane</string>
+    <string name="badge_free_resource">100% FREE</string>
+    <string name="action_info_policy">Info &amp; Policy</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_notes">Notes</string>
+    <string name="nav_mock_exam">Mock Exam</string>
+    <string name="nav_skill_gd">Skill &amp; GD</string>
+    <string name="filter_commission_label">Commission / Province</string>
+    <string name="filter_post_level_label">Service Post Level</string>
+    <string name="footer_about">About</string>
+    <string name="footer_contact">Contact</string>
+    <string name="footer_privacy">Privacy Policy</string>
+    <string name="footer_terms">Terms &amp; Disclaimer</string>
+    <string name="creator_copyright_reminder">Only add original summaries from public-domain Nepal laws and syllabi. Do not copy private textbooks.</string>
+    <string name="export_json_button">Export &amp; Share studyData.json</string>
+    <string name="copy_json_button">Copy JSON</string>
+    <string name="psc_official_url">https://psc.gov.np</string>
+    <string name="law_commission_url">https://lawcommission.gov.np</string>
+    <string name="creator_email">contact@aparneupane.com.np</string>
+</resources>

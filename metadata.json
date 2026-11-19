@@ -1,0 +1,6 @@
+{
+  "name": "Nepal Krishi Lok Sewa Prep",
+  "description": "Offline-first Nepal Federal and Provincial Agriculture PSC (Officer & JT/JTA) study guide, negative-marking mock exam, English/Nepali typing simulator, and creator content manager.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
