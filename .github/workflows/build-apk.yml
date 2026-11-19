@@ -40,10 +40,16 @@ jobs:
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         run: ./gradlew assembleRelease
 
-      - name: Upload Release APK and Keystore
-        uses: actions/upload-artifact@v4
+      - name: Upload Release APK (Direct File)
+        uses: actions/upload-artifact@v7
         with:
-          name: Krishi-Loksewa-Sathi-Release
-          path: |
-            app/build/outputs/apk/release/app-release.apk
-            my-upload-key.jks
+          name: app-release.apk
+          path: app/build/outputs/apk/release/app-release.apk
+          archive: false
+
+      - name: Upload Keystore Backup (Direct File)
+        uses: actions/upload-artifact@v7
+        with:
+          name: my-upload-key.jks
+          path: my-upload-key.jks
+          archive: false
