@@ -2,9 +2,8 @@
 
 100% free and copyright-safe Nepal Federal & Provincial Agriculture Lok Sewa (PSC) exam preparation app with offline notes, 20% negative-marking mock tests, and PSC typing simulator. Created by Apar Neupane.
 
-## 📲 Download & Use
-* **[Download Android App (APK)](https://github.com)** *(Tap `app-release.apk` under Assets to install)*
-* **[Open Web App (No Install Required)](https://krishi-loksewa-sathi.vercel.app)** *(Works on Android, iPhone, and PC)*
+## 📲 Download Android App
+* **[Download Latest APK](/aneupane296-cyber/Krishi-Loksewa-Sathi/releases/latest)** *(Tap `app-release.apk` under Assets to install)*
 
 ## ✨ Features
 * **Offline Notes:** Study Nepal Federal & Provincial Agriculture Lok Sewa materials anytime without internet.
@@ -12,4 +11,4 @@
 * **PSC Typing Simulator:** Sharpen your typing speed and accuracy for PSC skill tests.
 
 ## 🔒 Legal
-* **[Privacy Policy](https://github.io)**
+* **[Privacy Policy](/aneupane296-cyber/Krishi-Loksewa-Sathi/blob/main/privacy.html)**
