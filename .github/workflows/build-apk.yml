@@ -4,6 +4,9 @@ on:
   push:
     branches: [ main ]
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -53,3 +56,11 @@ jobs:
           name: my-upload-key.jks
           path: my-upload-key.jks
           archive: false
+
+      - name: Publish Public APK Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest-apk
+          name: Krishi Loksewa Sathi (Latest APK)
+          body: Download the latest Android APK directly below.
+          files: app/build/outputs/apk/release/app-release.apk
